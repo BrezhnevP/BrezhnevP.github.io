@@ -1,0 +1,1006 @@
+head,body{
+	margin:0;
+	width: 100%;
+	height: 100%;
+}
+body{
+	background-color: #272727;
+	padding-top: 100px;
+}
+#container #backgroundred1{
+	background-image: url(img/redbackground1.png);
+	background-size: cover;
+	position: absolute;
+	z-index: -1;
+	width: 1166px;
+	height: 2700px;
+	margin-top: -75px;
+}
+#container #backgroundred2{
+	background-image: url(img/redbackground2.png);
+	background-size: cover;
+	position: absolute;
+	z-index: 1;
+	width: 1156px;
+	height: 1240px;
+	margin-top: 785px;
+}
+#container #backgroundred3{
+	background-image: url(img/redbackground3.png);
+	background-size: cover;
+	position: absolute;
+	z-index: -1;
+	width: 1000px;
+	height: 1040px;
+	margin-top: 2150px;
+}
+@font-face {
+    font-family: 'PT_Sans';
+    src: url('fonts/PT_Sans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT_Sans_Bold';
+    src: url('fonts/PT_Sans_Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hattori-hanzo-light';
+    src: url('fonts/hattori-hanzo-light.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+#container{
+	width: 1166px;
+	position: relative;
+	right: 0;
+	left: 0;
+	margin: auto;
+}	
+#header{
+	position: relative;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 1024px;
+	height: 553px;
+}
+#header #background{
+	position: relative;
+	background-image: url(img/header_background.png);
+	width: 100%;
+	height: 494px;
+	box-shadow: -4px 4px 27px rgba(0,0,0,0.8);
+}
+#header:before{
+margin-top: -44px;
+margin-left: 337px;
+content: "";
+position: absolute;
+z-index: 100;
+width: 427px;
+height: 598px;
+background-image: url(img/header_fighter.png);
+background-size: cover;
+}
+#header #background #headerlogo{
+	position: absolute;
+	background-image: url(img/header_logo.png);
+	background-size: cover;
+	width: 141px;
+	height: 63px;
+	margin-top:38px;
+	margin-left:59px;
+}
+#header #background #invitetext{
+	position: absolute;
+	max-width: 317px;
+	font-family: PT_Sans_Bold;  
+	font-size: 30.75px;
+	line-height: 33px;
+	margin-left: 59px;
+	margin-top: 159px;
+	color: white;
+}
+#header #background #headerbutton{
+	position: absolute;
+	width: 100px;
+	height: 24px;
+	margin-left: 59px;
+	margin-top: 270px;
+	background-color: #d53847;
+	border: 0;
+	font-family: PT_Sans;
+	font-size: 15.37px;
+	color: white;
+	text-align: center;
+	padding-bottom: 2px;
+	outline: none;
+	cursor:pointer;
+}
+#header #background #headerbutton:hover{
+	background-color: #FF6666;
+}
+#header #background #rfc{
+	position: absolute;
+	margin-left: 117px;
+	margin-top: 323px;
+	max-width: 200px;
+}
+#header #background #rfc h3{
+	margin: 0;
+	font-family: PT_Sans;
+	font-size: 118.55px;
+	color: white;
+	line-height: 100px; 
+}
+#header #background #rfc p{
+	margin: 0;
+	font-family: PT_Sans;
+	font-size: 17.91px;
+	color: white;
+	padding-left: 5px;
+}
+#header #background #headerphone{
+	position: absolute;
+	font-family: PT_Sans_Bold;
+	color: #e0e0e0;
+	font-size: 18.25px;
+	margin-left: 819px;
+	margin-top: 27px;
+}
+#header #background #socialpicts{
+	position: absolute;
+	margin-left: 864px;
+	margin-top: 60px;
+}
+#header #background #socialpicts img{
+	width: 20px;
+	height: 21px;
+	margin-right: 3px;
+}
+#header #background #menu{
+	position: absolute;
+	margin-left:810px;
+	margin-top:137px;
+}
+#header #background #menu ul{
+	font-family: PT_Sans;
+	font-size: 13.31px;
+	color: #e0e0e0;
+	text-align: right;
+	list-style: none;
+}
+#header #background #menu ul a{
+	line-height: 22px;
+	font-family: PT_Sans;
+	color: #e0e0e0;
+	text-decoration: none;
+}
+#header #background #menu ul a:hover{
+	font-family: PT_Sans_Bold;
+	color: white;
+}
+#fourlist:hover{
+	margin-right: 1px;
+}
+#menuline{
+	position: absolute;
+	width: 7px;
+	height: 123px;
+	margin-left: 969px;
+	margin-top: 155px;
+	background-image: url(img/menu_line.png);
+	background-size: cover;
+}
+#headeraddress{
+	position: absolute;
+	margin-left: 726px;
+	margin-top: 465px;
+	font-family: PT_Sans_Bold;
+	font-size: 17.52px;
+	color: #e0e0e0;
+
+}
+#about_club{
+	position: relative;
+	width: 1024px;
+	height: 420px;
+	background-image: url(img/about_club_background.png);
+	background-size: cover;
+	margin: auto;
+	box-shadow: -4px 4px 27px rgba(0,0,0,0.8);
+	z-index: 2;
+}
+#about_club #title{
+	position: absolute;
+	max-width: 444px;
+	color: white;
+	margin-left: 427px;
+	margin-top: 42px;
+}
+#about_club #title h3{
+	margin: 0;
+	font-family: PT_Sans_Bold;
+	font-size: 37.89px;
+	line-height: 35px;
+}
+#about_club #title p{
+	font-family: PT_Sans;
+	font-size: 14.68px;
+	color: #e0e0e0;;
+}
+#about_club #advantages{
+	position: absolute;
+	font-family: PT_Sans_Bold;
+	font-size: 25.56px;
+	color: white;
+	margin-left: 64px;
+	margin-top: 128px;
+	max-width: 200px;
+}
+#about_club #adv1{
+	position: absolute;
+	margin-left: 22px;
+	margin-top: 212px;
+}
+#about_club #adv1 #adv1pict{
+	background-image: url(img/icon_9.png);
+	background-size: cover;
+	width: 38px;
+	height: 36px;
+	float:left;
+}
+#about_club #adv1 #adv1text{
+	font-family: PT_Sans;
+	font-size: 14.68px;
+	color: white;
+	max-width: 213px;
+	float:left;
+	margin-left: 10px;
+}
+.clear{
+	clear: left;
+}
+#about_club #adv2{
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 275px;
+	height: 44px;
+}
+#about_club #adv2 #adv2pict{
+	background-image: url(img/icon_3.png);
+	background-size: cover;
+	width: 41px;
+	height: 37px;
+	float:left;
+}
+#about_club #adv2 #adv2text{
+	font-family: PT_Sans;
+	font-size: 14.68px;
+	color: white;
+	max-width: 213px;
+	float:left;
+	margin-left: 10px;
+	padding-top: 2px;
+}
+#about_club #adv3{
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 338px;
+	height: 44px;
+}
+#about_club #adv3 #adv3pict{
+	background-image: url(img/icon_2.png);
+	background-size: cover;
+	width: 40px;
+	height: 44px;
+	float:left;
+}
+#about_club #adv3 #adv3text{
+	font-family: PT_Sans;
+	font-size: 14.68px;
+	color: white;
+	max-width: 180px;
+	float:left;
+	margin-left: 10px;
+}
+#about_club #adv4{
+	position: absolute;
+	margin-left: 379px;
+	margin-top: 212px;
+	height: 44px;
+}
+#about_club #adv4 #adv4pict{
+	background-image: url(img/icon_4.png);
+	background-size: cover;
+	width: 36px;
+	height: 36px;
+	float:left;
+}
+#about_club #adv4 #adv4text{
+	font-family: PT_Sans;
+	font-size: 14.68px;
+	color: white;
+	max-width: 215px;
+	float:left;
+	margin-left: 10px;
+}
+#about_club #adv5{
+	position: absolute;
+	margin-left: 379px;
+	margin-top: 275px;
+	height: 44px;
+}
+#about_club #adv5 #adv5pict{
+	background-image: url(img/icon_8.png);
+	background-size: cover;
+	width: 32.5px;
+	height: 38px;
+	float:left;
+}
+#about_club #adv5 #adv5text{
+	font-family: PT_Sans;
+	font-size: 14.68px;
+	color: white;
+	max-width: 213px;
+	float:left;
+	margin-left: 13px;
+}
+#about_club #adv6{
+	position: absolute;
+	margin-left: 375px;
+	margin-top: 338px;
+	height: 44px;
+}
+#about_club #adv6 #adv6pict{
+	background-image: url(img/icon_7.png);
+	background-size: cover;
+	width: 45px;
+	height: 45px;
+	float:left;
+}
+#about_club #adv6 #adv6text{
+	font-family: PT_Sans;
+	font-size: 14.68px;
+	color: white;
+	max-width: 213px;
+	float:left;
+	margin-left: 6px;
+	padding-top: 10px;
+}
+#about_club #adv7{
+	position: absolute;
+	margin-left: 723px;
+	margin-top: 212px;
+	height: 44px;
+}
+#about_club #adv7 #adv7pict{
+	background-image: url(img/icon_1.png);
+	background-size: cover;
+	width: 36px;
+	height: 38px;
+	float:left;
+}
+#about_club #adv7 #adv7text{
+	font-family: PT_Sans;
+	font-size: 14.68px;
+	color: white;
+	max-width: 213px;
+	float:left;
+	margin-left: 10px;
+}
+#about_club #adv8{
+	position: absolute;
+	margin-left: 723px;
+	margin-top: 275px;
+	height: 44px;
+}
+#about_club #adv8 #adv8pict{
+	background-image: url(img/icon_6.png);
+	background-size: cover;
+	width: 30px;
+	height: 41px;
+	float:left;
+}
+#about_club #adv8 #adv8text{
+	font-family: PT_Sans;
+	font-size: 14.68px;
+	color: white;
+	max-width: 213px;
+	float:left;
+	margin-left: 17px;
+}
+#about_club #adv9{
+	position: absolute;
+	margin-left: 720px;
+	margin-top: 338px;
+	height: 44px;
+}
+#about_club #adv9 #adv9pict{
+	background-image: url(img/icon_5.png);
+	background-size: cover;
+	width: 38px;
+	height: 38px;
+	float:left;
+}
+#about_club #adv9 #adv9text{
+	font-family: PT_Sans;
+	font-size: 14.68px;
+	color: white;
+	max-width: 213px;
+	float:left;
+	margin-left: 12px;
+}
+#trainersanchor{
+	margin-top: 50px;
+}
+#trainers{
+	width: 1024px;
+	height: 492px;
+	background-color: #1d1d1d;
+	margin: auto;
+	margin-top: 141px;
+	box-shadow: -4px 4px 27px rgba(0,0,0,0.8);
+	position: relative;
+}
+#trainers #title{
+	position: absolute;
+	max-width: 230px;
+	color: white;
+	margin-left: 421px;
+	margin-top: 33px;
+	z-index: 2;
+}
+#trainers #title h3{
+	font-family: PT_Sans_Bold;
+	font-size: 37.89px;
+	margin: 0;
+	line-height: 20px;
+}
+#trainers #title p{
+	font-family: PT_Sans;
+	font-size: 14.67px;	
+}
+.trainersslide{
+	top: 135px;
+	position: relative;
+	z-index: 3;
+	max-width: 890px;
+	margin: auto;
+}
+.trainersslide .trainer{
+	max-width: 174px;
+	height: 305px;
+	margin-left: 24px;
+	margin-right: 24px;
+}
+.trainersslide .trainer #trainerphoto1{
+	width: 174px;
+	height: 174px;
+	background-image: url(img/trainerphoto1.png);
+	background-size: cover;
+}
+.trainersslide .trainer h3{
+	position: relative;
+	font-family: PT_Sans_Bold;
+	font-size: 18.25px;
+	margin: 0;
+	color: white;
+	max-width: 120px;
+	margin-left: 10px;
+	margin-top: 5px;
+	line-height: 21px;
+}
+.trainersslide .trainer #informtitle{
+	font-family: PT_Sans_Bold;
+	font-size: 13.87px;
+	margin: 0;
+	margin-left: 10px;
+	margin-top: 7px;
+	color: #be2f50;
+}
+.trainersslide .trainer #inform{
+	font-family: PT_Sans;
+	font-size: 14.67px;
+	color: #f0f0f0;
+	margin: 0;
+	margin-left: 10px;
+	line-height: 16px;
+
+}
+.trainersslide .trainer #trainerphoto2{
+	width: 174px;
+	height: 174px;
+	background-image: url(img/trainerphoto2.png);
+	background-size: cover;
+}
+.trainersslide .trainer #trainerphoto3{
+	width: 174px;
+	height: 174px;
+	background-image: url(img/trainerphoto3.png);
+	background-size: cover;
+}
+.trainersslide .trainer #trainerphoto4{
+	width: 174px;
+	height: 174px;
+	background-image: url(img/trainerphoto4.png);
+	background-size: cover;
+}
+.trainersslide .trainer #trainerphoto5{
+	width: 174px;
+	height: 174px;
+	background-image: url(img/trainerphoto5.png);
+	background-size: cover;
+}
+.slick-slide:focus{
+    outline: none;
+}
+#price-list_anchor{
+	margin-top: 100px;
+}
+#price-list{
+	width: 1024px;
+	height: 548px;
+	margin: auto;
+	margin-top: 141px;
+	background-image: url(img/pricebackground.png);
+	background-size: cover;
+	box-shadow: -4px 4px 27px rgba(0,0,0,0.8);
+	font-family: PT_Sans_Bold;
+	font-size: 38px;
+	color: white;
+	padding-top: 60px;
+	padding-left: 363px;
+	box-sizing: border-box;
+}
+#price-list #list ul{
+	list-style: none;
+	margin-top: 63px;	
+	padding-left: 0;
+}
+#price-list #list ul h3{
+	font-family: PT_Sans_Bold;
+	font-size: 18.25px;
+	color: white;
+	margin: 0;
+	line-height: 15px;
+}
+#price-list #list ul p{
+	font-family: PT_Sans;
+	font-size: 16.79px;
+	color: #f0f0f0;
+	margin: 0;
+}
+#price-list #list li{
+	margin-bottom: 16px;
+}
+#price-list #pinkbox{
+	position: absolute;
+	background-image: url(img/pricelistpinkbox.png);
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	margin-left: 292px;
+	margin-top: -125px;
+	color: white;
+	padding-left: 33px;
+	box-sizing: border-box;
+	padding-top: 70px;
+	box-shadow: -4px 4px 27px rgba(0,0,0,0.8);
+}
+#price-list #pinkbox h3{
+	font-family: PT_Sans_Bold;
+	font-size: 18.25px;
+	margin: 0;
+}
+#price-list #pinkbox p{
+	margin: 0;
+	font-family: PT_Sans;
+	font-size: 15px;
+}
+#team_anchor{
+	margin-top: 80px;
+}
+#team{
+	width: 1024px;
+	height: 542px;
+	margin: auto;
+	margin-top: 141px;
+	background-image: url(img/teambackground.png);
+	background-size: cover;
+	box-shadow: -4px 4px 27px rgba(0,0,0,0.8);
+}
+#team h3{
+	font-family: PT_Sans_Bold;
+	font-size: 38px;
+	color: white;
+	margin: auto;
+	text-align: center;
+	margin: 0;
+	padding-top: 20px;
+}
+.teamslide{
+	top: 30px;
+	position: relative;
+	z-index: 3;
+	max-width: 890px;
+	margin: auto;
+}
+.teamslide .teammate{
+	max-width: 220px;
+	height: 395px;
+	margin-left: 47px;
+	margin-right: 47px;
+}
+.teamslide .teammate #teammatephoto1{
+	background-image: url(img/teammate1.png);
+	background-size: cover;
+	width: 220px;
+	height: 340px;
+	margin-left: -16px;
+	margin-top: -7px;
+}
+.teamslide .teammate #teammatephoto2{
+	background-image: url(img/teammate2.png);
+	background-size: cover;
+	width: 220px;
+	height: 340px;
+	margin-left: -17px;
+	margin-top: -7px;
+}
+.teamslide .teammate #teammatephoto3{
+	background-image: url(img/teammate3.png);
+	background-size: cover;
+	width: 220px;
+	height: 340px;
+	margin-left: -16px;
+	margin-top: -7px;
+}
+.teamslide .teammate .teammatename{
+	font-family: PT_Sans_Bold;
+	font-size: 18.25px;
+	color: white;
+	margin: 0;
+	margin-top: -7px;
+	margin-left: 10px;
+}
+.teamslide .teammate .videogallery{
+	font-family: PT_Sans_Bold;
+	font-size: 14.67px;
+	color: #d43257;
+	margin: 0;
+	margin-left: 10px;
+}
+.teamslide .teammate .vk{
+	position: relative;
+	width: 20px;
+	height: 20px;
+	left: 10px;
+	top: 3px;
+	float: left;
+	margin-right: 5px;
+}
+.teamslide .teammate .shd{
+	position: relative;
+	width: 20px;
+	height: 20px;
+	left: 10px;
+	top: 3px;
+	float: left;
+}
+#registration_anchor{
+	margin-top: 70px;
+}
+#registration{
+	position: relative;
+	height: 465px;
+	width: 1024px;
+	margin: auto;
+	margin-top: 141px;
+	background-image: url(img/registrationbackground.png);
+	background-size: cover;
+	box-shadow: -4px 4px 27px rgba(0,0,0,0.8);
+	padding-top: 24px;
+	box-sizing: border-box;
+}
+#registration h3{
+	position: absolute;
+	font-family: PT_Sans_Bold;
+	font-size: 38px;
+	color: white;
+	line-height: 33px;
+	max-width: 230px;
+	margin: 0;
+	margin-left: 563px;
+}
+#registration hr{
+	position: absolute;
+	width: 113px;
+	height: 5px;
+	background-color: #c63153;
+	border: 0;
+	margin-top: 70px;
+	margin-left: 563px;
+}
+#registration #woman{
+	position: absolute;
+	background-image: url(img/registration_woman.png);
+	background-size: cover;
+	margin-left: 20px;
+	width: 470px;
+	height: 561px;
+	margin-top: -19px;
+}
+#registration #regform{
+	position: absolute;
+	width: 300px;
+	height: 315px;
+	margin-left: 563px;
+	margin-top: 96px;
+	background-color: #d4d4d4;
+	padding: 17px;
+	box-sizing: border-box;
+}
+#registration #regform h3{
+	font-family: hattori-hanzo-light;
+	font-size: 18.31px;
+	color: #4a4a4a;
+	margin: 0;
+	margin-top: -3px;
+	line-height: 21px;
+}
+#registration #regform #name{
+	width: 260px;
+	height: 25px;
+	border:0;
+	margin-top: 48px;
+	padding-left: 5px;
+font-size: 14.61px;
+	outline: none;
+}
+#registration #regform #contacts{
+	width: 260px;
+	height: 25px;
+	border:0;
+	margin-top: 12px;
+	padding-left: 5px;
+	font-size: 14.61px;
+	outline: none;
+}
+#registration #regform textarea{
+	width: 260px;
+	height: 69px;
+	border:0;
+	margin-top: 12px;
+	padding-left: 5px;
+	resize: none;
+	font-size: 14.61px;
+	outline: none;
+}
+#registration #regform #name::placeholder{
+	color:#7c7c7c;
+	font-family: hattori-hanzo-light;
+	font-size: 14.61px;
+}
+#registration #regform #contacts::placeholder{
+	color:#7c7c7c;
+	font-family: hattori-hanzo-light;
+	font-size: 14.61px;
+}
+#registration #regform textarea::placeholder{
+	color:#7c7c7c;
+	font-family: hattori-hanzo-light;
+	font-size: 14.61px;
+	display: block;
+	margin: 0;
+}
+#registration #regform #registrationbutton{
+	width: 92px;
+	height: 23px;
+	margin-top: 10px;
+	background-color: #d53847;
+	border: 0;
+	font-family: hattori-hanzo-light;
+	font-size: 14.57px;
+	color: white;
+	text-align: center;
+	padding-top: 2px;
+	outline: none;
+	cursor:pointer;
+	padding-bottom: 2px;
+}
+@-moz-document url-prefix()
+{
+    #registration #regform #registrationbutton
+    	{ 
+    	padding-bottom: 0px;
+    	padding-left: 6px;
+    	}
+}
+#registration #regform #registrationbutton:hover{
+	background-color: #FF6666;
+}
+#registration #regform p{
+	margin: 0;
+	margin-top: 15px;
+	margin-left: 5px;
+	max-width: 240px;
+	font-family: hattori-hanzo-light;
+	font-size: 14.61px;
+	line-height: 14px;
+	color: #606060;
+}
+#footer{
+	position: relative;
+	width: 1024px;
+	height: 276px;
+	margin: auto;
+	margin-top: 92px;
+	box-shadow: -4px 4px 27px rgba(0,0,0,0.8);
+}
+#footer #left{
+	width: 622px;
+	height: 276px;
+	float:left;
+	background-image: url(img/footerbackground.png);
+	background-size: cover;
+}
+#footer #rightmap{
+	width: 402px;
+	height: 276px;
+	background-image: url(img/map.png);
+	background-size: cover;
+	float: left;
+}
+#footer #left #contacts{
+	margin-left: 16px;
+	margin-top: 40px;
+}
+#footer #left #contacts #contactspict{
+	width: 31px;
+	height: 21px;
+	background-image: url(img/phone.png);
+	background-size: cover;
+	float: left;
+}
+#footer #left #contacts #contactstext{
+	margin-left: 20px;	
+	margin-top: 8px;
+	float: left;
+	line-height: 5px;
+}
+#footer #left #contacts #contactstext h3{
+	font-family: PT_Sans_Bold;
+	font-size: 22px;
+	color: white;
+	margin: 0;
+}
+#footer #left #contacts #contactstext p{
+	font-family: PT_Sans;
+	font-size: 18.25px;
+	margin-left: 1px;
+	color: #d13156;
+}
+#footer #left #time{
+	margin-left: 16px;
+	margin-top: 5px;
+}
+#footer #left #time #timepict{
+	width: 28px;
+	height: 25px;
+	background-image: url(img/watch.png);
+	background-size: cover;
+	float: left;
+	margin-top: 3px;
+}
+#footer #left #time #timetext{
+	margin-left: 22px;	
+	margin-top: 7px;
+	float: left;
+}
+#footer #left #time #timetext h3{
+	font-family: PT_Sans_Bold;
+	font-size: 22px;
+	color: white;
+	margin: 0;
+	line-height: 20px;
+}
+#footer #left #time #timetext p{
+	font-family: PT_Sans;
+	font-size: 18.25px;
+	color: #d13156;
+	margin: 0;
+	margin-left: 2px;
+	line-height: 21px;
+}
+#footer #left #socialnet{
+	margin-left: 68px;
+	margin-top: 13px;
+}
+#footer #left #socialnet h3{
+	font-family: PT_Sans_Bold;
+	font-size: 22px;
+	color: white;
+	margin: 0;
+	line-height: 20px;
+}
+#footer #left #socialnet #socialpicts{
+	height: 37px;
+	margin-top: 10px;
+}
+#footer #left #socialnet #socialpicts #socfb{
+	width: 28px;
+	height: 28px;
+	margin-right: 10px;
+	float: left;
+}
+#footer #left #socialnet #socialpicts #socvk{
+	width: 28px;
+	height: 28px;
+	margin-right: 10px;
+	float: left;
+}
+#footer #left #socialnet #socialpicts #socinst{
+	width: 28px;
+	height: 28px;
+	margin-right: 10px;
+	float: left;
+}
+#footer #left #socialnet #socialpicts #socyt{
+	width: 28px;
+	height: 28px;
+	margin-right: 10px;
+	float: left;
+}
+#pinkbox2{
+	position: absolute;
+	width: 208px;
+	height: 147px;
+	background-color: #d13156;
+	margin-left: 522px;
+	margin-top: -110px;
+	box-shadow: -7px 7px 16px rgba(0,0,0,0.8);
+}
+#pinkbox2 #boxpict{
+	width: 16px;
+	height: 24px;
+	background-image: url(img/arrow.png);
+	background-size: cover;
+	margin-left: 15px;
+	margin-top: 25px;
+	float: left;
+}
+#pinkbox2 #boxtext{
+	color: white;
+	float: left;
+	margin-top: 28px;
+	margin-left: 12px;
+}
+#pinkbox2 #boxtext h3{
+	font-family: PT_Sans_Bold;
+	font-size: 22px;
+	margin: 0;
+	line-height: 15px;
+}
+#pinkbox2 #boxtext p{
+	font-family: hattori-hanzo-light;
+	font-size: 18.25px; 
+	line-height: 25px;
+	margin: 0;
+	color: #f9e4e8;
+	margin-top: 2px;
+}
+#since{
+	font-family: PT_Sans;
+	font-size: 14.6px;
+	color: #6c6c6c;
+	margin-left: 843px;
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+
+
+
