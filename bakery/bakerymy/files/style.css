@@ -146,7 +146,7 @@ body{
 #second_slide{
 	position: absolute;
 	height: 740px;
-	width: 100%;
+	width: 1600px;
 	background-image: url(img/sec_slide_bg.png);
 	background-size: cover;
 	margin-top: 13px;
@@ -319,7 +319,7 @@ body{
 }
 #third_slide{
 	position: absolute;
-	width: 100%;
+	width: 1600px;
 	height: 760px;
 	margin-top: 105px;
 	background-image: url(img/middle_bg.png);
@@ -435,7 +435,7 @@ body{
 }
 #fourth_slide{
 	height: 760px;
-	width: 100%;
+	width: 1600px;
 	margin-top: 865px;
 	background-image: url(img/bottom_bg.png);
 	background-size: cover;
@@ -598,7 +598,7 @@ body{
 	cursor: pointer;
 }
 #fifth_slide{
-	width: 100%;
+	width: 1600px;
 	height: 1160px;
 	margin-top: 1625px;
 	background: #f3f1e9;
@@ -606,9 +606,7 @@ body{
 #fifth_caption{
 	width: 490px;
 	position: absolute;
-	left: 0;
-	right: 0;
-	margin: auto;	
+	left: 600px;	
 	margin-top: 45px;
 	text-align: center;
 	z-index: 2;
